@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "curl.d.ts",
+  "sourceRoot": "",
+  "sources": [
+    "../../../src/commands/curl.ts"
+  ],
+  "names": [],
+  "mappings": "AACA,OAAO,EAA8B,OAAO,EAAE,MAAM,YAAY,CAAC;AAGjE,OAAO,KAAK,EAAE,MAAM,EAAE,MAAM,aAAa,CAAC;AAE1C,wBAAsB,IAAI,CAAC,OAAO,EAAE,OAAO,EAAE,MAAM,EAAE,MAAM,GAAG,OAAO,CAAC,IAAI,CAAC,CAsD1E"
+}

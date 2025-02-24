@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "regexpEscape.d.ts",
+  "sourceRoot": "",
+  "sources": [
+    "../../../src/utils/regexpEscape.ts"
+  ],
+  "names": [],
+  "mappings": "AAAA,wBAAgB,YAAY,CAAE,MAAM,EAAE,MAAM,UAY3C"
+}

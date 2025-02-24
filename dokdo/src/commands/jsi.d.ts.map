@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "jsi.d.ts",
+  "sourceRoot": "",
+  "sources": [
+    "../../../src/commands/jsi.ts"
+  ],
+  "names": [],
+  "mappings": "AAAA,OAAO,EAA0C,OAAO,EAAE,MAAM,YAAY,CAAC;AAC7E,OAAO,KAAK,EAAE,MAAM,EAAE,MAAM,aAAa,CAAC;AAO1C,wBAAsB,GAAG,CAAC,OAAO,EAAE,OAAO,EAAE,MAAM,EAAE,MAAM,GAAG,OAAO,CAAC,IAAI,CAAC,CAoEzE"
+}

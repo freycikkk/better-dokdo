@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "isGenerator.d.ts",
+  "sourceRoot": "",
+  "sources": [
+    "../../../src/utils/isGenerator.ts"
+  ],
+  "names": [],
+  "mappings": "AACA,eAAO,MAAM,WAAW,WAAY,SAAS,KAAG,OAGZ,CAAA"
+}

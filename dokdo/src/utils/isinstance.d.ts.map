@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "isinstance.d.ts",
+  "sourceRoot": "",
+  "sources": [
+    "../../../src/utils/isinstance.ts"
+  ],
+  "names": [],
+  "mappings": "AAEA,wBAAgB,UAAU,CAAE,MAAM,EAAE,OAAO,EAAE,QAAQ,EAAE,GAAG,GAAG,OAAO,CASnE"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "shard.d.ts",
+  "sourceRoot": "",
+  "sources": [
+    "../../../src/commands/shard.ts"
+  ],
+  "names": [],
+  "mappings": "AAAA,OAAO,EAIL,OAAO,EACR,MAAM,YAAY,CAAC;AACpB,OAAO,KAAK,EAAE,MAAM,EAAE,MAAM,aAAa,CAAC;AAI1C,wBAAsB,KAAK,CAAC,OAAO,EAAE,OAAO,EAAE,MAAM,EAAE,MAAM,GAAG,OAAO,CAAC,IAAI,CAAC,CA4E3E"
+}

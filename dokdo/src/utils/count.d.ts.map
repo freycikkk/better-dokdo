@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "count.d.ts",
+  "sourceRoot": "",
+  "sources": [
+    "../../../src/utils/count.ts"
+  ],
+  "names": [],
+  "mappings": "AAGA,wBAAgB,KAAK,CACnB,QAAQ,EAAE,GAAG,GACZ;IAAE,IAAI,EAAE,MAAM,CAAC;IAAC,KAAK,EAAE,MAAM,CAAC;IAAC,KAAK,EAAE,MAAM,CAAA;CAAE,EAAE,GAAG,IAAI,CAqCzD"
+}

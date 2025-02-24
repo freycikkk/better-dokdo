@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "main.d.ts",
+  "sourceRoot": "",
+  "sources": [
+    "../../../src/commands/main.ts"
+  ],
+  "names": [],
+  "mappings": "AAKA,OAAO,KAAK,EAAE,MAAM,EAAE,OAAO,EAAE,MAAM,aAAa,CAAC;AAQnD,wBAAsB,IAAI,CAAC,OAAO,EAAE,OAAO,EAAE,MAAM,EAAE,MAAM,GAAG,OAAO,CAAC,IAAI,CAAC,CA8C1E"
+}

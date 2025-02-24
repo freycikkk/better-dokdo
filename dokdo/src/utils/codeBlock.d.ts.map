@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "codeBlock.d.ts",
+  "sourceRoot": "",
+  "sources": [
+    "../../../src/utils/codeBlock.ts"
+  ],
+  "names": [],
+  "mappings": "AAAA,qBAAa,SAAS;IACpB,MAAM,CAAC,SAAS,CAAE,OAAO,EAAE,MAAM,EAAE,IAAI,CAAC,EAAE,MAAM,GAAG,MAAM;IAMzD,MAAM,CAAC,KAAK,CAAE,OAAO,EAAE,MAAM,GAAG,MAAM,EAAE,GAAG,IAAI;CAIhD"
+}

@@ -1,0 +1,7 @@
+{
+  "author": "freycikk",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "node-fetch": "^3.3.2"
+  }
+}
