@@ -20,7 +20,7 @@ Download or copy the `dokdo` folder and place it inside your project directory.
 Modify the import path to ensure it correctly references the `dokdo/src/index.js` file:
 
 ```javascript
-import { Client as DokdoClient } from "./dokdo/src/index.js"; // // You can import Client normally just make sure it doesn't interfere with discord.js Client
+import { Client as DokdoClient } from "./dokdo/src/index.js"; // You can import Client normally just make sure it doesn't interfere with discord.js Client
 ```
 
 ### Step 3: Setup the Dokdo Client
