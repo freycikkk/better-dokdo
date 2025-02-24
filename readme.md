@@ -54,9 +54,9 @@ client.login("TOKEN"); // Replace with your bot token
 Once set up, you can use Dokdo commands in your Discord server:
 
 ```
-!dokdo 1+1  // Executes JavaScript code
-!dok console.log("Hello")  // Logs output
-!jsk eval message.guild.id  // Evaluates expressions
+!dokdo js 1+1  // Executes JavaScript code
+!dok sh console.log("Hello")  // Logs output
+!jsk js message.guild.id  // Evaluates expressions
 ```
 
 ## Why Use This Dokdo?
