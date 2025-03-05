@@ -1,3 +1,5 @@
+/** @format */
+
 export function table(obj) {
   clean(obj);
   const max =

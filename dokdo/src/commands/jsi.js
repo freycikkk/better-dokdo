@@ -1,9 +1,11 @@
-import { Collection, ButtonBuilder, ButtonStyle } from 'discord.js';
-import { typeFind } from '../utils/type.js';
-import { inspect } from '../utils/inspect.js';
+/** @format */
+
+import { ButtonBuilder, ButtonStyle, Collection } from 'discord.js';
 import { count } from '../utils/count.js';
-import { table } from '../utils/table.js';
+import { inspect } from '../utils/inspect.js';
 import { ProcessManager } from '../utils/ProcessManager.js';
+import { table } from '../utils/table.js';
+import { typeFind } from '../utils/type.js';
 export async function jsi(message, parent) {
   const { client } = parent;
   if (!message.data.args) {

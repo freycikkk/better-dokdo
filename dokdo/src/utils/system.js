@@ -1,3 +1,5 @@
+/** @format */
+
 export class System {
   static memory() {
     const memory = process.memoryUsage();

@@ -1,3 +1,5 @@
+/** @format */
+
 import Discord, { ComponentType, Message } from 'discord.js';
 import { codeBlock } from './codeBlock.js';
 import { regexpEscape } from './regexpEscape.js';
@@ -39,6 +41,7 @@ export class ProcessManager {
     }
   }
   async init() {
+    await this.message.react('✅');
     this.messageContent = this.genText();
     this.message = await this.target.send(this.filterSecret(this.messageContent));
   }

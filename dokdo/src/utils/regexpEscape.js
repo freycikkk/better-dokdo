@@ -1,3 +1,5 @@
+/** @format */
+
 export function regexpEscape(string) {
   const str = String(string);
   const cpList = Array.from(str[Symbol.iterator]());

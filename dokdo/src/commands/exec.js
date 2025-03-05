@@ -1,3 +1,5 @@
+/** @format */
+
 import child from 'child_process';
 import { ButtonBuilder, ButtonStyle } from 'discord.js';
 import { ProcessManager } from '../utils/ProcessManager.js';

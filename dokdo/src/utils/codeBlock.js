@@ -1,3 +1,5 @@
+/** @format */
+
 export class codeBlock {
   static construct(content, lang) {
     return `\`\`\`${content ? lang || '' : ''}

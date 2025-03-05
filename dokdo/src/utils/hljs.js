@@ -1,3 +1,5 @@
+/** @format */
+
 export class HLJS {
   static languages = [
     'as',

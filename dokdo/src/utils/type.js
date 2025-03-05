@@ -1,3 +1,5 @@
+/** @format */
+
 export function typeFind(argument) {
   if (typeof argument === 'number' && isNaN(argument)) return 'NaN';
   const parsed = Object.prototype.toString.apply(argument);

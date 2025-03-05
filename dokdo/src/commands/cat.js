@@ -1,3 +1,5 @@
+/** @format */
+
 import fs from 'fs';
 import { ButtonBuilder, ButtonStyle } from 'discord.js';
 import { ProcessManager } from '../utils/ProcessManager.js';

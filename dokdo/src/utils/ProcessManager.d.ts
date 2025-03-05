@@ -1,3 +1,5 @@
+/** @format */
+
 import { ButtonBuilder, ButtonInteraction, InteractionCollector, Message, TextBasedChannel, User } from 'discord.js';
 import type { Client, Context } from '../index.js';
 export interface ProcessOptions {

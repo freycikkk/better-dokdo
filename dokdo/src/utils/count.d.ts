@@ -1,3 +1,5 @@
+/** @format */
+
 export declare function count(argument: any):
   | {
       name: string;

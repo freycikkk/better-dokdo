@@ -1,3 +1,5 @@
+/** @format */
+
 import fetch from 'axios';
 import { ButtonBuilder, ButtonStyle } from 'discord.js';
 import { ProcessManager } from '../utils/ProcessManager.js';

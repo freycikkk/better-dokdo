@@ -1,3 +1,5 @@
+/** @format */
+
 export * from './ProcessManager.js';
 export * from './codeBlock.js';
 export * from './hljs.js';

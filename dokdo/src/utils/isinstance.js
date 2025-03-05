@@ -1,3 +1,5 @@
+/** @format */
+
 import { Collection } from 'discord.js';
 export function isInstance(target, theClass) {
   if (target instanceof Collection && target.map((f) => f instanceof theClass).includes(false)) {

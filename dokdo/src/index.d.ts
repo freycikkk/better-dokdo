@@ -1,3 +1,5 @@
+/** @format */
+
 import { Snowflake, Client, Message, User, ChatInputCommandInteraction } from 'discord.js';
 import * as Utils from './utils/codeBlock.js';
 import * as Commands from './commands/index.js';

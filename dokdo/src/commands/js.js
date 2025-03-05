@@ -1,3 +1,5 @@
+/** @format */
+
 import { Embed, EmbedBuilder, Collection, Attachment, ButtonBuilder, ButtonStyle, Message } from 'discord.js';
 import { inspect } from '../utils/inspect.js';
 import { isInstance, isGenerator } from '../utils/index.js';
