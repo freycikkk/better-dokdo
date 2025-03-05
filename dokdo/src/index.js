@@ -2,16 +2,16 @@
 
 import { Client, Message, User } from 'discord.js';
 import fetch from 'node-fetch';
-import * as Utils from './utils/codeBlock.js';
-import * as Commands from './commands/index.js';
-import { main } from './commands/main.js';
 import { cat } from './commands/cat.js';
 import { curl } from './commands/curl.js';
 import { exec } from './commands/exec.js';
+import * as Commands from './commands/index.js';
 import { js } from './commands/js.js';
-import { rtt } from './commands/rtt.js';
 import { jsi } from './commands/jsi.js';
+import { main } from './commands/main.js';
+import { rtt } from './commands/rtt.js';
 import { shard } from './commands/shard.js';
+import * as Utils from './utils/codeBlock.js';
 class Dokdo {
   client;
   options;
@@ -343,4 +343,4 @@ class Dokdo {
     return this.owners;
   }
 }
-export { Dokdo as Client, Utils, Commands };
+export { Dokdo as Client, Commands, Utils };
