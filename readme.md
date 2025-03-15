@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # Dokdo - Easy JavaScript/TypeScript Debugging
 
 This is a custom implementation of Dokdo, a powerful debugging tool for Discord bot developers. Unlike traditional Dokdo packages, you don't need to install it separately. Just copy and paste the `dokdo` folder into your project, adjust the imports, set up the Dokdo client, and you're good to go!
@@ -17,10 +19,10 @@ Download or copy the `dokdo` folder and place it inside your project directory.
 
 ### Step 2: Adjust Imports
 
-Modify the import path to ensure it correctly references the `dokdo/src/index.js` file:
+Modify the import path to ensure it correctly references the `path/to/dokdo/index.js` file:
 
 ```javascript
-import { Client as DokdoClient } from "./dokdo/src/index.js"; // You can import Client normally just make sure it doesn't interfere with discord.js Client
+import { Client as DokdoClient } from './dokdo/index.js'; // You can import Client normally just make sure it doesn't interfere with discord.js Client
 ```
 
 ### Step 3: Setup the Dokdo Client
@@ -29,24 +31,24 @@ Initialize your Discord bot and Dokdo client as shown below:
 
 ```javascript
 const client = new Client({
-  intents: [GatewayIntents.Guilds, GatewayIntents.GuildMessages],
+  intents: [GatewayIntents.Guilds, GatewayIntents.GuildMessages]
 });
 
 const Dokdo = new DokdoClient(client, {
-  aliases: ["dokdo", "dok", "jsk"], // Replace with your desired aliases
-  prefix: "!", // Replace with your desired prefix
-  owners: "123456789012345678", // Replace with your Discord user ID
+  aliases: ['dokdo', 'dok', 'jsk'], // Replace with your desired aliases
+  prefix: '!', // Replace with your desired prefix
+  owners: '123456789012345678' // Replace with your Discord user ID
 });
 
-client.on("ready", () => {
+client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`);
 });
 
-client.on("messageCreate", async (message) => {
+client.on('messageCreate', async (message) => {
   await Dokdo.handleMessage(message);
 });
 
-client.login("TOKEN"); // Replace with your bot token
+client.login('TOKEN'); // Replace with your bot token
 ```
 
 ## Usage
