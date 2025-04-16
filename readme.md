@@ -69,3 +69,5 @@ Once set up, you can use Dokdo commands in your Discord server:
 - **Easy setup** – minimal configuration required.
 
 With this version of Dokdo, debugging and executing code in your Discord bot has never been easier! 🚀
+
+⚠️ **Notice**: This project is based on the original code from [wonderlandpark/dokdo](https://github.com/wonderlandpark/dokdo). I made a few adjustments and improvements to better fit my use case and decided to share it publicly in case it helps others too. Full credit to the original author.
